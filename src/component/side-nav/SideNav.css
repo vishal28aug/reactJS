@@ -1,8 +1,31 @@
-.sidebar {
-    height: 100%;
-    width: 200px;
-    background-color: #fff;
-    position: fixed!important;
-    z-index: 1;
-    overflow: auto;
+.sidebar-header {    
+    display: flex;
+    background-color: #ededed;
+    padding: 10px;
 }
+
+.icon {
+    right: 0px;
+    position: absolute;
+    color: #80868a;
+}
+
+.search-field{
+    background-color: #f8f8f8;
+    padding: 7px 10px;
+}
+
+.field{
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+}
+
+.list {
+    max-height: 503px;
+    overflow-y: scroll;
+    cursor: "pointer";
+    scrollbar-width: 'thin',
+    
+}
+

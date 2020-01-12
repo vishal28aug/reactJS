@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Vishal Sharma",
+    "description": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "image": "./../../assets/image/1.jpg"
+   
+  },
+  {
+    "id": 2,
+    "name": "Leanne Graham",
+    "description": "First, solve the problem. Then, write the code",
+    "image": "./../../assets/image/2.png"
+
+  
+  },
+  {
+    "id": 3,
+    "name": "Priyanka",
+    "description": "Experience is the name everyone gives to their mistakes",
+    "image": "./../../assets/image/3.jpg"
+   
+  },
+  {
+    "id": 4,
+    "name": "Test test",
+    "description": "In order to be irreplaceable, one must always be different",
+    "image": "./../../assets/image/4.jpg"
+
+   
+  },
+  {
+    "id": 5,
+    "name": "test 2",
+    "description": "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code",
+    "image": "./../../assets/image/5.jpg"
+
+   
+  },
+  {
+    "id": 6,
+    "name": "test 4",
+    "description": "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.",
+    "image": "./../../assets/image/6.jpg"
+
+   
+  },
+  {
+    "id": 7,
+    "name": "Leanne Graham",
+    "description": "Code is like humor. When you have to explain it, it’s bad.”",
+    "image": "./../../assets/image/7.jpg"
+
+   
+  },
+  {
+    "id": 8,
+    "name": "Leanne Graham",
+    "description": "Fix the cause, not the symptom",
+    "image": "./../../assets/image/8.jpg"
+
+   
+  },
+  {
+    "id": 9,
+    "name": "Leanne Graham",
+    "description": "Optimism is an occupational hazard of programming: feedback is the treatment.",
+    "image": "./../../assets/image/9.jpg"
+
+   
+  },
+  {
+    "id": 10,
+    "name": "Leanne Graham",
+    "description": "When to use iterative development? You should use iterative development only on projects that you want to succeed.",
+    "image": "./../../assets/image/10.jpg"
+
+   
+  }
+]

@@ -1,0 +1,27 @@
+.description-header{
+    display: flex;
+    background-color:#ededed;
+    padding: 10px;
+}
+
+.icon {
+    right: 0px;
+    position: absolute;
+    color: #80868a;
+}
+
+.name{
+    padding-left: 15px ;
+    font-weight: 500;
+}
+
+.search-field{
+    background-color: #f8f8f8;
+    padding: 7px 10px;
+    display: flex;
+}
+
+.field{
+    border-radius: 30px;
+    background-color: white;
+}
