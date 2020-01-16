@@ -1,0 +1,21 @@
+.header-navbar{
+    align-items: center;
+      padding: 5px 10px;
+      font-weight: 600;
+      display: flex;
+      height: 100%;
+  }
+
+.header-item1{
+    height: 28px;
+}
+
+.header-item1-label{
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.header-right-items{
+    display: flex;
+   margin-right: 80px;
+}

@@ -1,26 +1,21 @@
 import React, { Component } from 'react'
 import logo from './logo.svg';
 import './App.css';
+import Headers from './Components/Headers/Headers'
+import UserDashboard from './Components/User-dashboard/UserDashboard'
+import AdImage from './Components/Ad-image/AdImage'
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Hello React !!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Headers />
+        <UserDashboard/>
+        <div className="zomato-offer-collection">
+        <AdImage />
+        </div>
+        
+      </div>
     )
   }
 }
