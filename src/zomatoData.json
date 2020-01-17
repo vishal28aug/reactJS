@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "header": "Trending This Week",
+      "desription": "Most popular restaurants in town this week",
+      "imageUrl": "food1.jpg" 
+    },
+    {
+      "id": 2,
+      "header": "Pune's Finest",
+      "desription": "The hunt for the highest-rated restaurants in your city ends",
+      "imageUrl": "food2.jpg"
+     },
+    {
+      "id": 3,
+      "header": "Newly Opened",
+      "desription": "The best new place in town",
+      "imageUrl": "food3.jpg"
+      },
+    {
+      "id": 4,
+      "header": "Outdoor Seating",
+      "desription": "The most idyllic outdoor-dinning sports in the city",
+      "imageUrl": "food4.jpg"
+      }
+    ]

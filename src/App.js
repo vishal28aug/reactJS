@@ -4,6 +4,7 @@ import './App.css';
 import Headers from './Components/Headers/Headers'
 import UserDashboard from './Components/User-dashboard/UserDashboard'
 import AdImage from './Components/Ad-image/AdImage'
+import QuickSearches from './Components/Quick-searches/QuickSearches'
 
 export default class App extends Component {
   render() {
@@ -12,8 +13,9 @@ export default class App extends Component {
         <Headers />
         <UserDashboard/>
         <div className="zomato-offer-collection">
-        <AdImage />
+        <AdImage />       
         </div>
+      <QuickSearches />
         
       </div>
     )
