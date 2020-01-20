@@ -1,0 +1,15 @@
+.status-button{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0px;
+}
+
+.status-button_active{
+    flex:1;
+    background-color: green !important;
+}
+
+.status-button_inactive{
+    flex:1;
+    background-color: mediumslateblue !important;
+}

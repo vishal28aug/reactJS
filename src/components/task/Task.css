@@ -1,0 +1,12 @@
+.paper{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    border: 1px solid;
+}
+
+.paper__label{
+    padding-left: 20px;
+}
