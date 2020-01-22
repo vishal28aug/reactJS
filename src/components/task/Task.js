@@ -1,26 +1,35 @@
 import React, { Component } from 'react'
-import TaskStatus from './../task-status/TaskStatus'
 import './Task.css'
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import Checkbox from '@material-ui/core/Checkbox';
-import AddTask from './../add-task/AddTask'
-import stateData from './../../AppState'
+
 export default class Task extends Component {
-  render() {
-    return (
-      <div>       
-        
-        {
-        stateData.getStateTask().map((task, index) =>
-        <Paper className="paper" key={index}>
+
+  getTask = () => {
+    return (this.props.state.task.map((task, index) =>
+      this.props.state.activeButton == '1' && task.status == 'pending' ?
+        <Paper className="paper" key={index} >
           <Grid container wrap="nowrap" spacing={2}>
-            <input type="checkbox" />
+            <input type="checkbox" onChange={() => this.props.handleCheckboxChange(index)} />
             <span className="paper__label"> {task.name} </span>
           </Grid>
-        </Paper>     
-        )
-        }
+        </Paper>
+        :
+        this.props.state.activeButton == '2' && task.status == 'completed' ?
+          <Paper className="paper" key={index} >
+            <Grid container wrap="nowrap" spacing={2}>
+              <input type="checkbox" onChange={() => this.props.handleCheckboxChange(index)} />
+              <span className="paper__label"> {task.name} </span>
+            </Grid>
+          </Paper>
+          : null
+    ))
+  }
+
+  render() {
+    return (
+      <div>
+        {this.getTask()}
       </div >
     )
   }
