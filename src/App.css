@@ -37,3 +37,14 @@
     transform: rotate(360deg);
   }
 }
+
+.todo-name{
+ font-size: 50px;
+ font-weight: bold;
+ color: #6a5acc;
+}
+
+.todo-name__img{
+  height: 50px;
+    padding-right: 36px;
+}

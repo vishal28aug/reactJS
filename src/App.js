@@ -47,8 +47,12 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App">        
         <Container maxWidth="sm">
+        <div className="todo-name">
+        <img className = "todo-name__img" src={require('./assets/todo-png2.png')} />
+        TODO APP
+        </div>
           <TaskStatus activeButton={this.state.activeButton} chageActiveButton={this.changeActiveButton} />
           <AddTask addTask={this.addTask} newtask={this.state.newTask} />
           <Task state={this.state} handleCheckboxChange={this.handleCheckboxChange} />
