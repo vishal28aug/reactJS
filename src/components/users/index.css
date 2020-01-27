@@ -1,0 +1,20 @@
+.card-details{
+    margin: 10px;
+    border: 1px solid #8080804d;
+    float: left;
+    width: 100%;
+}
+
+.add-user{
+    width: 50%;
+}
+
+.user-list{
+    width: 50%;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.user-page{
+    display: flex;
+}
