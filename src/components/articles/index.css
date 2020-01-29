@@ -1,0 +1,33 @@
+.card-details{
+    margin: 10px;
+    border: 1px solid #8080804d;
+    float: left;
+    width: 100%;
+}
+
+.add-article{
+    width: 50%;
+}
+
+.article-list{
+    width: 50%;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.article-page{
+    display: flex;
+}
+
+.user-author{
+    font-size: 35px;
+    color: cornflowerblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.article-heading{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}

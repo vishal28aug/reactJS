@@ -25,6 +25,10 @@ export default class Users extends Component {
     })
   }
 
+  handleOpenArticle = (user) =>{
+    this.props.openArticle(user);
+  }
+
   render() {
     return (
       <div className="user-page">
@@ -33,7 +37,7 @@ export default class Users extends Component {
         </div>
         <div className="user-list">
         {this.state.users.map( (user, index) => 
-        <Card className="card-details" key={index} onClick={this.props.openArticle(user.id)}>
+        <Card className="card-details" key={index} onClick={() => this.handleOpenArticle(user)}>
           <div >
             <CardContent >
               <Typography component="h5" variant="h5">

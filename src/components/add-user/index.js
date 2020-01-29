@@ -25,6 +25,7 @@ export default class AddUser extends Component {
       },
       body: JSON.stringify(data)
     })
+    this.setState({name:'',email:''})
   }
 
   handleChangeName = (event) => {
@@ -38,6 +39,7 @@ export default class AddUser extends Component {
   render() {
     return (
       <div className="fields">
+      ADD USER
         <TextField
           label="Name"
           variant="outlined"

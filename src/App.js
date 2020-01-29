@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import logo from './logo.svg';
 import './App.css';
 import Users from './components/users'
+import Article from './components/articles'
 
 export default class App extends Component {
   constructor(props){
@@ -13,16 +14,17 @@ export default class App extends Component {
   }
 
   openArticle =(selectedUser) =>{
-    console.log(this.state)
-
-    this.setState({selectedUser ,isShowArticle:true })
-    // this.setState({isShowArticle: true})
-    console.log(this.state)
+    this.setState({selectedUser:selectedUser ,isShowArticle:true })
   }
+
   render() {
+    console.log(this.state)
     return (
       <div className="App">
-     <Users state={this.state} openArticle={() => this.openArticle}/>
+     {this.state.isShowArticle ? 
+      <Article selectedUser = {this.state.selectedUser}/>
+     :  <Users state={this.state} openArticle={this.openArticle}/>
+     }
     </div>
     )
   }
